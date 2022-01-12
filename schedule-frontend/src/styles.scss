@@ -1,0 +1,26 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "./app/styles";
+
+@layer base {
+  body {
+    font-family: "Open Sans", sans-serif;
+    @apply font-medium text-white;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Poppins", sans-serif;
+    @apply font-bold lg:font-extrabold tracking-wide uppercase;
+  }
+
+  h1,
+  h2 {
+    @apply text-5xl;
+  }
+}
